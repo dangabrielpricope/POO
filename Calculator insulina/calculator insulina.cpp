@@ -57,9 +57,9 @@ private:
 	}
 };
 
-class CalculatorGlicemie {
+class CalculatorInsulina {
 public:
-	CalculatorGlicemie()
+	CalculatorInsulina()
 	{
 
 	}
@@ -101,17 +101,17 @@ private:
 	}
 };
 
-class IstoricGlicemie {
+class IstoricInsulina {
 public:
 
-	~IstoricGlicemie()
+	~IstoricInsulina()
 	{
 		_istoric.clear();
 	}
 
 	void Print() {
 		string istoricPrint = "\n---------------------------\n";
-		istoricPrint += "Istoric glicemie"; 
+		istoricPrint += "Istoric Insulina"; 
 		istoricPrint += "\n---------------------------\n";
 
 		Glicemie allInsulina;
@@ -123,20 +123,20 @@ public:
 			it++; 
 		}
 
-		float average = allInsulina.insulina / it;
-		istoricPrint += "\nInsulina medie administrata pe zi: ";
-		istoricPrint += std::to_string(average);
+		float all = allInsulina.insulina;
+		istoricPrint += "\nCantitate totala de insulina administrata: ";
+		istoricPrint += std::to_string(all);
 
 		cout << istoricPrint;
 	}
 
-	friend IstoricGlicemie Add(IstoricGlicemie istoric, Glicemie glicemie);
+	friend IstoricInsulina Add(IstoricInsulina istoric, Glicemie glicemie);
 
 private:
 	list<Glicemie> _istoric; 
 };
 
-IstoricGlicemie Add(IstoricGlicemie istoric, Glicemie glicemie) {
+IstoricInsulina Add(IstoricInsulina istoric, Glicemie glicemie) {
 	istoric._istoric.push_back(glicemie);
 	return istoric;
 }
@@ -160,13 +160,13 @@ public:
 	}
 
 private:
-	CalculatorGlicemie calculator;
-	IstoricGlicemie istoric;
+	CalculatorInsulina calculator;
+	IstoricInsulina istoric;
 
 	void AfiseazaMeniu() {
 		cout << "\n\n";
 		cout << "-----------MENIU--------\n";
-		cout << "1. Calcul glicemie\n";
+		cout << "1. Calcul insulina\n";
 		cout << "2. Afiseaza istoric\n";
 		cout << "3. Exit\n";
 		cout << "------------------------\n";
