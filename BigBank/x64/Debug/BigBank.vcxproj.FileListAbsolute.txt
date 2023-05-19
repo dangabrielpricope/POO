@@ -1,0 +1,3 @@
+D:\Facultate\Semestrul 2\Programare orientata obiect\proiecte\BigBank\x64\Debug\BigBank.vcxproj.AssemblyReference.cache
+D:\Facultate\Semestrul 2\Programare orientata obiect\proiecte\BigBank\x64\Debug\BigBank.vcxproj.SuggestedBindingRedirects.cache
+D:\Facultate\Semestrul 2\Programare orientata obiect\proiecte\BigBank\x64\Debug\BigBank.exe

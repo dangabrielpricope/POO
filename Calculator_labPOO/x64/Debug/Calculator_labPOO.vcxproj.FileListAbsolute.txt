@@ -1,0 +1,5 @@
+D:\Facultate\Semestrul 2\Programare orientata obiect\proiecte\Calculator_labPOO\x64\Debug\Calculator_labPOO.vcxproj.AssemblyReference.cache
+D:\Facultate\Semestrul 2\Programare orientata obiect\proiecte\Calculator_labPOO\x64\Debug\Calculator_labPOO.vcxproj.SuggestedBindingRedirects.cache
+D:\Facultate\Semestrul 2\Programare orientata obiect\proiecte\Calculator_labPOO\x64\Debug\Calculator_labPOO.Form1.resources
+D:\Facultate\Semestrul 2\Programare orientata obiect\proiecte\Calculator_labPOO\x64\Debug\Calculator_labPOO.vcxproj.GenerateResource.cache
+D:\Facultate\Semestrul 2\Programare orientata obiect\proiecte\Calculator_labPOO\x64\Debug\Calculator_labPOO.exe
